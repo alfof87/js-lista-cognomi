@@ -12,8 +12,9 @@
 
 var question = prompt("Immetti il cognome");
 var cognomi = ["Rossi", "Baudo", "Musa","Gattuso"];
-cognomi = cognomi + question; //cognomi += question;
+cognomi = cognomi + "," + question; //cognomi += question;
+console.log(cognomi);
 
 for(i = 0; i < cognomi.length; i++){
-
+  cognomi.sort();
 }
