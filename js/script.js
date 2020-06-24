@@ -17,10 +17,7 @@ cognomi = cognomi + "," + question; //cognomi += question;
 cognomi.sort();
 console.log(cognomi);
 
-// document.getElementById("btn").addEventListener("click", function(){
-//   cognomi.sort();
-//   console.log(cognomi);
-// })
+
 
 for(i = 0; i < cognomi.length; i++){
   console.log(cognomi[i].localeCompare(question));
